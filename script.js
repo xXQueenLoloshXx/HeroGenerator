@@ -1,7 +1,7 @@
 let ranDomNumber = num => {
     return Math.floor(Math.random() * num);
  }
- let SuperHeroTrates = {
+ const SuperHeroTrates = {
    gender : ['Male','Female'],
    power: ['Fire', 'Visibility','Healing','Flying'],
    city: ['Gotham','Hogwards','Narnia','Disney'],
@@ -16,4 +16,4 @@ let ranDomNumber = num => {
    }
  }
  
- console.log(SuperHeroTrates.createHero());
+SuperHeroTrates.createHero();
